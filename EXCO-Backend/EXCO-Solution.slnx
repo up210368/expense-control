@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="EXCO-Solution.API/EXCO-Solution.API.csproj" />
+  <Project Path="EXCO-Solution.Application/EXCO-Solution.Application.csproj" />
+  <Project Path="EXCO-Solution.Domain/EXCO-Solution.Domain.csproj" />
+  <Project Path="EXCO-Solution.Infrastructure/EXCO-Solution.Infrastructure.csproj" />
+  <Project Path="EXCO-Solution.Tests/EXCO-Solution.Tests.csproj" />
+</Solution>

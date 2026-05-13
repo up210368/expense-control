@@ -1,0 +1,6 @@
+@EXCO_Solution.API_HostAddress = http://localhost:5083
+
+GET {{EXCO_Solution.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
