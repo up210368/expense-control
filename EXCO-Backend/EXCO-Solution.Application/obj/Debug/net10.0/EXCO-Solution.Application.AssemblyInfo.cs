@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EXCO-Solution.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3de337d4316c54defd2e8bdf9caa3c4ecf1d9775")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c630a2b0b0c49cbda64035512ac78bbbe0583f28")]
 [assembly: System.Reflection.AssemblyProductAttribute("EXCO-Solution.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EXCO-Solution.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -210,6 +210,7 @@ EXCO-Backend/**/*.userosscache
 EXCO-Backend/**/*.ide
 EXCO-Backend/**/*.vcxproj.user
 EXCO-Backend/**/*.sln.docstates
+EXCO-Backend/**/*.db
 .cursorignore
 .cursorindexingignore
 

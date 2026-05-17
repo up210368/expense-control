@@ -1,4 +1,4 @@
-namespace ExpenseTracker.Domain.Entities;
+namespace EXCO_Solution.Domain.Entities;
 
 public class Spending
 {

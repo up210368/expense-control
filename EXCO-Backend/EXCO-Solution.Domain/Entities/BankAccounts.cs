@@ -1,6 +1,6 @@
-using ExpenseTracker.Domain.Enums;
+using EXCO_Solution.Domain.Enums;
 
-namespace ExpenseTracker.Domain.Entities;
+namespace EXCO_Solution.Domain.Entities;
 
 public class BankAccount
 {
