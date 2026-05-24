@@ -10,7 +10,6 @@ public class User
     public ICollection<Category> Categories { get; private set; } = new List<Category>();
     public ICollection<BankAccount> BankAccounts { get; private set; } = new List<BankAccount>();
 
-    // Constructor vacío requerido por Entity Framework
     private User() { }
 
     public User(string name, string passwordHash)
