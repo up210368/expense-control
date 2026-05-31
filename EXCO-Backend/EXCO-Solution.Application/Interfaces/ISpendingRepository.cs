@@ -5,6 +5,5 @@ namespace EXCO_Solution.Application.interfaces;
 public interface ISpendingRepository
 {
     Task AddSpendingAsync(Spending spending);
-    Task<Spending?> GetSpendingByIdAsync(int id);
-    Task<List<Spending>> GetAllSpendingsAsync();
+    Task<List<Spending>> GetSpendingsByMonthAsync(int userId, int month, int year);
 }
