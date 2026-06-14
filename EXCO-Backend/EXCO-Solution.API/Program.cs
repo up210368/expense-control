@@ -1,5 +1,9 @@
 using EXCO_Solution.Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
+using EXCO_Solution.Application.interfaces.Repositories;
+using EXCO_Solution.Application.Interfaces.Services;
+using EXCO_Solution.Application.Services;
+using EXCO_Solution.Infrastructure.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,6 +15,9 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+// Dependency Injection
+builder.Services.AddScoped<ISpendingRepository, SpendingsRepository>();
+builder.Services.AddScoped<ISpendingService, SpendingService>();
 
 var app = builder.Build();
 

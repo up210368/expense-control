@@ -1,6 +1,6 @@
 using EXCO_Solution.Domain.Entities;
 
-namespace EXCO_Solution.Application.interfaces;
+namespace EXCO_Solution.Application.interfaces.Repositories;
 
 public interface ISpendingRepository
 {

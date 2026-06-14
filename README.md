@@ -22,3 +22,10 @@
     <li>Language = <strong>C#</strong></li>
     <li>Architecture = <strong>Layer architecture</strong></li>
 </ul>
+
+---
+
+<h1>Layer architecture</h1>
+<p><strong>Infrastructure</strong> ref <strong>Domain</strong> ref <strong>Application</strong> ref <strong>API</strong></p>
+<p>Infrastructure -> Persistence -> Migrations = SQLite DB</p>
+

@@ -1,6 +1,6 @@
 using EXCO_Solution.Domain.Entities;
 
-namespace EXCO_Solution.Application.Interfaces;
+namespace EXCO_Solution.Application.Interfaces.Repositories;
 
 public interface IUserRepository
 {

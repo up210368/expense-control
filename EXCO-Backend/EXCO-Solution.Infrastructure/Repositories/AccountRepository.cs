@@ -1,4 +1,4 @@
-using EXCO_Solution.Application.interfaces;
+using EXCO_Solution.Application.interfaces.Repositories;
 using EXCO_Solution.Domain.Entities;
 using EXCO_Solution.Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;

@@ -1,6 +1,6 @@
 namespace EXCO_Solution.Infrastructure.Repositories;
 
-using EXCO_Solution.Application.Interfaces;
+using EXCO_Solution.Application.Interfaces.Repositories;
 using EXCO_Solution.Domain.Entities;
 using EXCO_Solution.Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
